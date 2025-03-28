@@ -1,15 +1,14 @@
 document.addEventListener("DOMContentLoaded", function() {
-    document.getElementById("mi_boton").addEventListener("click", function() {
-      mostrar_menssaje();
+    document.getElementById("miboton").addEventListener("click", function() {
+        mostrarmensaje();
     });
 
-    document.getElementById("mi_boton2").addEventListener("click", function() {
-       cambiar_color();
+    document.getElementById("miboton2").addEventListener("click", function() {
+        cambiarcolor();
     });
 });
 
-
-function mostrar_menssaje() 
+function mostrarmensaje() 
 {
    // declaracion de variables
     var dato1;
@@ -32,26 +31,20 @@ function mostrar_menssaje()
  
 }
 
-function cambiar_color() 
-{
-
+function cambiarcolor() {
   var elemento = document.getElementById("contenedor");
 
-  if (document.body.style.backgroundColor === "black")
-       {
-         document.body.style.backgroundColor = "white";
-         elemento.style.width = "150px";
-         elemento.style.heigth = "150px";
-         document.body.style.backgroundColor="red";
-       } 
-   else 
-   {
-       document.body.style.backgroundColor = "black";
-       elemento.style.width = "150px";
-       elemento.style.heigth = "150px";
-       document.body.style.backgroundColor="blue";
-   }
-
+  if (document.body.style.backgroundColor === "black") {
+      document.body.style.backgroundColor = "white";
+      elemento.style.width = "150px";
+      elemento.style.height = "150px"; // Corrección de 'heigth'
+      elemento.style.backgroundColor = " #A587B5"; 
+  } else {
+      document.body.style.backgroundColor = "black";
+      elemento.style.width = "150px";
+      elemento.style.height = "150px"; 
+      elemento.style.backgroundColor = "lightpink";
+  }
 }
     
 
