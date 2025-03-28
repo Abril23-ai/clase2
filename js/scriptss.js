@@ -38,7 +38,7 @@ function cambiarcolor() {
       document.body.style.backgroundColor = "white";
       elemento.style.width = "150px";
       elemento.style.height = "150px"; // Corrección de 'heigth'
-      elemento.style.backgroundColor = " #A587B5"; 
+      elemento.style.backgroundColor = "rgb(78, 6, 117)"; 
   } else {
       document.body.style.backgroundColor = "black";
       elemento.style.width = "150px";
