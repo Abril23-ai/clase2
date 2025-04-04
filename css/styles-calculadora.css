@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+.app{
+    background-color: black;
+    border-radius: 15px;
+    padding: 20px;
+}
+.pantalla{
+    background-color:#7d7e85;
+    padding: 25px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    border-radius: 20px;
+    text-align: right;
+    color: white;
+    font-weight: 500;
+}
+.botones{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    cursor: pointer;
+}
+.button{
+    color: white;
+    font-size: 40px;
+    border-radius: 50px;
+    padding: 10px;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: pink;
+}
+#color{
+    background-color:#313131;
+}
+#color2{
+    background-color: #F69906;
+}
+/* text-align:right; para poner el resultado a la derechca  
+cursor: pointer para que al cursor salga una manito
+bnt:hover {} para que al pasar el cursor cambie del color que deseamos*/
